@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Merriweather&family=Roboto+Slab&display=swap');
+.breadcrump-con{
+	margin: 0;
+    padding: 10px 12px;
+    padding-left: 12px;
+    background-color: #cfcfcf;
+}
+.breadcrump{
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+.breadcrump li a{
+	text-decoration: none;
+	color: green;
+	margin: 0 3px;
+	font-size: 17px;
+	text-transform: capitalize;
+}
+.breadcrump li a:hover{
+	color: blue;
+}
+.bread:before{
+	content: "/";
+	margin: 0 2px;
+}
+#crump{
+	color: #9b9b9b;
+	font-size: 17px;
+	text-transform: capitalize;
+}
+.h1{
+	margin: 30px 0 10px 0;
+	text-transform: uppercase;
+}
+.read-top{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.read-top li a{
+	text-decoration: none;
+	color: green;
+}
+.read-top li a:hover{
+	color: blue;
+}
+.read-top li{
+	margin: 20px 40px 10px 0;
+	list-style-type: none;
+	font-size: 17px;
+}
+.read-top li i{
+	margin-right: 3px;
+	color: black;
+}
+.read-top li a i{
+	color: green;
+}
+.read-con{
+	/*width: 1030px;*/
+	width: 98%;
+	height: auto;
+	padding: 15px;
+	margin: 10px 10px 50px 0;
+	background-color: white;
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.img-con{
+	text-align: center;
+}
+.read #img1{
+	width: 550px;
+	height: 300px;
+	object-fit: contain;
+	margin: 25px;
+	
+}
+.read ul{
+	list-style-type: none;
+}
+.read ul li{
+	font-size: 19px;
+	margin: 10px 0;
+}
+.read ul li a{
+	color: green;
+	text-decoration: none;
+}
+.read ul li a:hover{
+	color: blue;
+}
+.read p{
+	margin-bottom: 25px;
+	font-size: 20px;
+	color: #1a1a1a;
+	/*font-family: 'Roboto Slab', serif;*/
+	font-family: 'Merriweather', serif;
+	line-height: 1.4;
+}
+.read p a{
+	color: green;
+	text-decoration: none;
+}
+.read p a:hover{
+	color: blue;
+}
+.cont-ad-con{
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+}
+.cont-ad{
+	background-color: black;
+	width: 300px;
+	height: 300px;
+	padding: 100px;
+}
+.cont-ad p{
+	color: white;
+	border: 2px dotted white;
+	text-align: center;
+	display: inline-block;
+	padding: 20px;
+	font-size: 20px;
+}
+.follow{
+	text-align: center;
+	margin-top: 60px;
+}
+.follow p{
+	margin-bottom: 0;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+}
+.follow a{
+	color: green;
+	text-decoration: none;
+}
+.follow a:hover{
+	color: blue;
+}
+.breadcrump li a:hover{
+	color: blue;
+}
+#spec{
+	background-color: #404040;
+}
+
+/*Responsivesness*/
+
+@media screen and (max-width: 576px) {
+	.breadcrump-con{
+		margin-left: 10px;
+	}
+	.h1{
+		margin-left: 10px;
+	}
+	.read-top li{
+	margin: 10px 5px 5px 12px;
+	list-style-type: none;
+	font-size: 15px;
+	}
+	.read-con{
+	width: 97%;
+	margin: 10px 10px 50px 7px;
+    }
+    .read #img1{
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	margin: 15px;	
+    }
+    .read p{
+	margin-bottom: 25px;
+	font-size: 18px;
+	line-height: 1.6;
+    }
+    .follow{
+    	margin-top: 40px;
+    }
+    .follow p{
+    	/*font-size: 10px;*/
+    	font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 950px) {
+	.breadcrump-con{
+		margin-left: 20px;
+	}
+	.h1{
+		margin-left: 20px;
+	}
+	.read-top li{
+	margin: 10px 5px 5px 22px;
+	list-style-type: none;
+	font-size: 15px;
+	}
+	.read-con{
+	/*width: 725px;*/
+	width: 98%;
+	margin: 10px 10px 50px 20px;
+    }
+    .read #img1{
+	width: 550px;
+	height: 350px;
+	object-fit: cover;
+	margin: 20px;	
+    }
+    .read p{
+	margin-bottom: 25px;
+	font-size: 18px;
+	line-height: 1.6;
+    }
+    .follow{
+    	margin-top: 50px;
+    }
+    .follow p{
+    	/*font-size: 10px;*/
+    	font-size: 18px;
+    }
+    .advert3{
+    	margin: 3rem 13rem !important;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+	.breadcrump-con{
+		margin-left: 25px;
+	}
+	.h1{
+		margin-left: 25px;
+	}
+	.read-top li{
+	margin: 10px 5px 5px 27px;
+	list-style-type: none;
+	font-size: 15px;
+	}
+	.read-con{
+	/*width: 725px;*/
+	width: 98%;
+	margin: 10px 10px 50px 26px;
+    }
+    .read #img1{
+	width: 650px;
+	height: 400px;
+	object-fit: cover;
+	margin: 25px;	
+    }
+    .read p{
+	margin-bottom: 25px;
+	font-size: 19px;
+	line-height: 1.6;
+    }
+    .follow{
+    	margin-top: 50px;
+    }
+    .follow p{
+    	/*font-size: 10px;*/
+    	font-size: 18px;
+    }
+    .advert3{
+    	margin: 3rem 21rem !important;
+    }
+
+}
+@media screen and (max-width: 290px) {
+	.read #img1{
+		width: 150px;
+		height: 150px;
+	}
+	.cont-ad{
+		width: 250px;
+		height: 250px;
+	}
+	.cont-ad p{
+		padding: 10px;
+	}
+}

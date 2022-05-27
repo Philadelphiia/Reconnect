@@ -1,0 +1,237 @@
+
+.content-main-container{
+	/*display: grid;*/
+	/*grid-template-columns: 10% 10%;*/
+	/*grid-template-rows: 10% 10%;*/
+	/*grid-gap: 20px;*/
+}
+.content-main{
+	margin: 10px 40px;
+	padding: 20px 60px;
+}
+.breadcrump-con{
+	margin: 0;
+    padding: 10px 12px;
+    padding-left: 12px;
+    background-color: #cfcfcf;
+}
+.breadcrump{
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+.breadcrump li a{
+	text-decoration: none;
+	color: green;
+	margin: 0 3px;
+	font-size: 17px;
+}
+.breadcrump li a:hover{
+	color: blue;
+}
+.bread:before{
+	content: "/";
+	margin: 0 2px;
+}
+#crump{
+	color: #9b9b9b;
+	text-transform: capitalize;
+	font-size: 17px;
+}
+.h1{
+	margin: 30px 0 -70px 0;
+}
+.group-content{
+    display: grid;
+	grid-template-columns: 20% 20% 20%;
+	grid-template-rows: 20% 20% 20%;
+	grid-gap: 150px 310px;
+	align-content: center;
+	justify-content: space-between;
+	padding: 0;
+	background-color: unset;
+	margin: 0;
+	width: 20%;
+}
+.group-content-one{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: white;
+	border: none;
+	padding: 0;
+	width: 310px;
+	height: 400px;
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.group-content-one img{
+	width: 310px;
+	height: 265px;
+	/*border-radius: 0.75rem;*/
+	border-radius: unset;
+	object-fit: cover;
+	/*border: 1px solid black;*/
+	border: none;
+}
+.group-content-one a{
+	text-decoration: none;
+	color: black;
+	margin: 10px;
+	padding: 5px;
+	color: green;
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-family: 'Alatsi', sans-serif;
+	text-transform: capitalize;
+}
+.group-content-one ul{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+.group-content-one ul li{
+	color: grey;
+	margin: 0 10px;
+}
+.group-content-one ul li i{
+	color: grey;
+	margin-right: 2px;
+}
+.more{
+	text-align: center;
+	/*width: 400px;*/
+	margin-left: 15px;
+	margin: 0;
+	margin-top: -8px;
+	margin-bottom: 5rem;
+	height: 50px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.advert3-top{
+	width: 300px;
+	height: 300px;
+	margin: auto 3rem 3rem 3rem;
+	background-color: black;
+	padding: 10px;
+	text-align: center;
+	color: whitesmoke;
+}
+.more-para{
+	display: inline-block;
+}
+#prev{
+	margin-right: 650px;
+}
+
+/*law category responsivesness*/
+@media screen and (max-width: 576px) {
+	.content-main{
+		padding: 0;
+		margin: 0;
+	}
+	.breadcrump-con{
+		margin: 10px 5px 10px 15px;
+	}
+	.h1{
+		margin: 40px 0 40px 0;
+		text-align: center;
+	}
+	.group-content{
+		display: flex;
+		flex-direction: column;
+		/*grid-gap: 40px;*/
+		grid-row-gap: 40px;
+		align-items: center;
+		width: 92%;
+		margin: 20px 30px;
+	}
+	.more{
+		margin: 5px 0 40px 25px;
+	}
+	.advert3{
+		display: none;
+	}
+	#prev{
+	margin-right: 140px;
+}
+.more-para{
+	font-size: 20px;
+	padding: 13px 10px 10px 10px;
+}
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1025px) {
+	.group-content-one{
+		width: 270px;
+		height: 380px;
+	}
+	.group-content-one img{
+		width: 270px;
+		height: 250px;
+	}
+	.group-content{
+		grid-gap: 190px 280px;
+	display: grid;
+	grid-template-columns: 15% 15% 15%;
+	grid-template-rows: 15% 15% 15%;
+	}
+	.more{
+		margin-left: 0;
+		width: 880px;
+	}
+	.advert3-top, .advert3{
+		display: none;
+	}
+	#prev{
+	margin-right: 600px;
+}
+}
+@media screen and (min-width: 700px) and (max-width: 950px) {
+	.group-content-one{
+		width: 270px;
+		height: 380px;
+	}
+	.group-content-one img{
+		width: 270px;
+		height: 250px;
+	}
+	.group-content{
+		grid-gap: 90px 300px;
+	display: grid;
+	grid-template-columns: 30% 30%;
+	grid-template-rows: 15% 15%;
+	}
+	.more{
+		margin-left: 0;
+		width: 650px;
+	}
+	.h1{
+		margin-bottom: 40px;
+	}
+	.advert3-top, .advert3{
+		display: none;
+	}
+	.below-content{
+		margin-top: 50px;
+	}
+	.social a{
+		font-size: 30px;
+	}
+	.others ul li{
+		margin: 30px 10px;
+	}
+	#prev{
+	margin-right: 400px;
+}
+}
+
+@media screen and (max-width: 1300px) {
+	.group{
+		width: 95.3%;
+		margin-left: -1px;
+	}
+}
