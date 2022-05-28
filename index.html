@@ -11,14 +11,17 @@
     <link rel="stylesheet" href="Homepage/style.css">
     <title>ReconnectNaija: No. 1 Information, Law and Article Website</title>
     <meta itemprop="description" name="description" content="Welcome to ReconnectNaija - Nigeria's No.1 News, Law, Educational, Government, Articles and 'How to' center, here you can download Articles in PDF format for offline use." />
+    <meta name="theme-color" content="#404040">
+    <meta name="keywords" content="information, government, news, law, articles, how to, education" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="ReconnectNaija: Nigeria's No. 1 Information, Law and Article Website" />
-    <meta property="og:url" content="https://www.ReconnectNaija.com/" />
+    <!-- <meta property="og:url" content="https://www.ReconnectNaija.com/" /> -->
     <meta property="og:description" content="Welcome to ReconnectNaija - Nigeria's No.1 News, Law, Educational, Government, Articles and 'How to' center, here you can download Articles in PDF format for offline use" />
-    <meta property="og:image" content="https://www.ReconnectNaija.com/reconnect-logo.jpg" />
+    <meta property="og:image" content="https://www.ReconnectNaija.com/Homepage/reconnect-logo.jpg" />
+    <meta property="twitter:title" content="ReconnectNaija: Nigeria's No. 1 Information, Law and Article Website">
+    <meta property="twitter:image" content="https://www.ReconnectNaija.com/Homepage/reconnect-logo.jpg">
+    <meta property="twitter:description" content="Welcome to ReconnectNaija - Nigeria's No.1 News, Law, Educational, Government, Articles and 'How to' center, here you can download Articles in PDF format for offline use">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <meta name="theme-color" content="##404040">
-    <meta name="keywords" content="information, government, news, law, articles, how to, education" />
     <link rel="canonical" href="https://www.ReconnectNaija.com/" itemprop="url">
 </head>
 
@@ -49,9 +52,11 @@
             </div>
         </div>
         <div class="search">
+            <form action="/search/index.html">
+                <input type="text" id='search' placeholder="Search...." name="search">
+                <button type="submit" class="search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
 
-            <input type="text" id='search' placeholder="Search...." name="search">
-            <button id='searchBtn' class="search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
 
         </div>
     </header>
